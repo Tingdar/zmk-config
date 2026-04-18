@@ -33,10 +33,10 @@
             // |      |      |      |        |       | ESC  |   | Play | TOP | Prev | Vol+ | Vol- | Next |
             // -------------------------------------------------------------------------------------------
             bindings = <
-                &kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp CARET  &kp AMPS  &kp ASTRK   &kp LPAR      &kp RPAR        &kp DQT
-                &kp GRAVE  &kp LEFT  &kp UP     &kp DOWN   &kp RIGHT  &kp INS        &kp EQUAL  &kp BSLH  &kp MINUS   &kp LBKT      &kp RBKT        &kp SQT
-                &kp CAPS   &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &kp SLCK       &kp PLUS   &kp PIPE  &kp UNDER   &kp LBRC      &kp RBRC        &trans
-                &trans     &trans    &trans     &trans     &trans     &kp ESC        &kp C_PP   &mo 3     &kp C_PREV  &kp C_VOL_UP  &kp C_VOL_DOWN  &kp C_NEXT
+                &kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp CARET  &kp AMPS  &kp ASTRK   &kp LPAR      &kp RPAR      &kp DQT
+                &kp GRAVE  &kp LEFT  &kp UP     &kp DOWN   &kp RIGHT  &kp INS        &kp EQUAL  &kp BSLH  &kp MINUS   &kp LBKT      &kp RBKT      &kp SQT
+                &kp CAPS   &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &kp SLCK       &kp PLUS   &kp PIPE  &kp UNDER   &kp LBRC      &kp RBRC      &none
+                &none      &none     &none      &none      &none      &kp ESC        &kp K_PP   &mo 3     &kp K_PREV  &kp K_VOL_UP  &kp K_VOL_DN  &kp K_NEXT
             >;
         };
 
@@ -48,10 +48,10 @@
             // |     |     |    |      | TOP |    |   |  SPC  |     |  0  |  =  |  -  |  ,   |
             // -------------------------------------------------------------------------------
             bindings = <
-                &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans      &kp KP_NLCK  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY  &kp C_AL_CALC
-                &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans      &kp COLON    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_DIVIDE    &kp RET
-                &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans      &kp SEMI     &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_PLUS      &kp KP_DOT
-                &trans  &trans  &trans   &trans   &mo 3    &trans      &kp SPACE    &trans     &kp KP_N0  &kp EQUAL  &kp KP_MINUS     &kp KP_COMMA
+                &none  &kp F1  &kp F2   &kp F3   &kp F4   &none      &kp KP_NLCK  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY  &kp C_AL_CALC
+                &none  &kp F5  &kp F6   &kp F7   &kp F8   &none      &kp COLON    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_DIVIDE    &kp RET
+                &none  &kp F9  &kp F10  &kp F11  &kp F12  &none      &kp SEMI     &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_PLUS      &kp KP_DOT
+                &none  &none   &none    &none    &mo 3    &none      &kp SPACE    &trans     &kp KP_N0  &kp EQUAL  &kp KP_MINUS     &kp KP_COMMA
             >;
         };
 
@@ -63,10 +63,10 @@
             //                  |     |     |     |   |        |    |     |
             // ------------------------------------------------------------------------------
             bindings = <
-                &trans  &trans        &trans        &trans        &trans        &trans            &trans      &trans  &trans  &trans  &trans  &studio_unlock
-                &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &bt BT_CLR  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans        &trans        &trans        &trans        &trans            &trans      &trans  &trans  &trans  &trans  &trans
-                &trans  &trans        &trans        &trans        &trans        &trans            &trans      &trans  &trans  &trans  &trans  &trans
+                &none  &none         &none         &none         &none         &none             &none       &none   &none  &none  &none  &studio_unlock
+                &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &bt BT_CLR  &none   &none  &none  &none  &none
+                &none  &none         &none         &none         &none         &none             &none       &none   &none  &none  &none  &none
+                &none  &none         &none         &none         &trans        &none             &none       &trans  &none  &none  &none  &none
             >;
         };
     };
