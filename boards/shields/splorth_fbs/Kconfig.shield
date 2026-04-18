@@ -1,0 +1,5 @@
+config SHIELD_SPLORTH_FBS_LEFT
+    def_bool $(shields_list_contains,splorth_fbs_left)
+
+config SHIELD_SPLORTH_FBS_RIGHT
+    def_bool $(shields_list_contains,splorth_fbs_right)
