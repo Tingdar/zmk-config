@@ -36,7 +36,7 @@
                 &kp TILDE  &kp EXCL  &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp CARET  &kp AMPS  &kp ASTRK   &kp LPAR      &kp RPAR        &kp DQT
                 &kp GRAVE  &kp LEFT  &kp UP     &kp DOWN   &kp RIGHT  &kp INS        &kp EQUAL  &kp BSLH  &kp MINUS   &kp LBKT      &kp RBKT        &kp SQT
                 &kp CAPS   &kp HOME  &kp PG_UP  &kp PG_DN  &kp END    &kp SLCK       &kp PLUS   &kp PIPE  &kp UNDER   &kp LBRC      &kp RBRC        &trans
-                &trans     &trans    &trans     &trans     &trans     &ESC           &kp K_PP   &mo 3     &kp K_PREV  &kp K_VOL_UP  &kp K_VOL_DOWN  &kp K_NEXT
+                &trans     &trans    &trans     &trans     &trans     &kp ESC        &kp K_PP   &mo 3     &kp K_PREV  &kp K_VOL_UP  &kp K_VOL_DOWN  &kp K_NEXT
             >;
         };
 
