@@ -20,5 +20,7 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: splorth_fbs
+    shield: splorth_fbs_left
+  - board: nice_nano_v2
+    shield: splorth_fbs_right
 
