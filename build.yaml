@@ -23,4 +23,5 @@ include:
     shield: splorth_fbs_left
   - board: nice_nano_v2
     shield: splorth_fbs_right
-
+  - board: nice_nano_v2
+    shield: settings_reset
