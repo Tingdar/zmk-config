@@ -1,0 +1,16 @@
+if SHIELD_SPLORTO_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Splorto"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_SPLORTO_LEFT
+
+if SHIELD_SPLORTO_LEFT || SHIELD_SPLORTO_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_SPLORTO_LEFT || SHIELD_SPLORTO_RIGHT
