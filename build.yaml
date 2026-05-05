@@ -20,8 +20,8 @@
 
 include:
   - board: nice_nano_v2
-    shield: splorth_fbs_left
+    shield: splorto_left
   - board: nice_nano_v2
-    shield: splorth_fbs_right
+    shield: splorto_right
   # - board: nice_nano_v2
   #   shield: settings_reset
